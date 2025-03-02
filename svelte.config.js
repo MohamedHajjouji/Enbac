@@ -2,13 +2,7 @@ import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import adapter from '@sveltejs/adapter-vercel';
 
-export default {
-	kit: {
-		adapter: adapter({
-			// see below for options that can be set here
-		})
-	}
-};
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
