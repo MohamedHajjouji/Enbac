@@ -16,8 +16,8 @@ let formAppear = false
             <!-- svelte-ignore a11y_click_events_have_key_events -->
             <!-- svelte-ignore a11y_no_static_element_interactions -->
             <i class="fa-solid fa-xmark" on:click={showForm}></i>
-            <h3>Reserve Your Spot</h3>
-            <p>by reserving your spot. we will call you and discuss your needs and preferences</p>
+            <h3>Send a Request</h3>
+            <p>After sending a request. we will call you and discuss your needs and preferences</p>
             <input type="text" name="name" id="name" placeholder="First Name">
             <input type="text" name="name" id="name" placeholder="Last Name">
             <input type="email" name="email" id="email" placeholder="Email">
@@ -45,7 +45,7 @@ let formAppear = false
 
     <div class="intro">
         <h1>Prepare for Your English Bac Exam</h1>
-        <p class="desc">Get weekly classes that will make sure you are ready for the national bac exam </p>
+        <p class="desc">Get weekly online classes that will make sure you are ready for the national bac exam </p>
         <button on:click={showForm}>Reserve Spot</button>
         <div class="contact">
             <div class="sub-contact">
@@ -66,7 +66,7 @@ let formAppear = false
     </div>
     <div class="offer">
         <h3 class="offer-type">Professional</h3>
-        <p class="offer-desc">Idea for individuals who need accompaniance</p>
+        <p class="offer-desc">Ideal for individuals who need help prepare for the national bac exam</p>
         <div class="offer-price">
             <h1>300DH</h1>
             <p>/Month</p>
