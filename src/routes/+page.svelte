@@ -1,7 +1,7 @@
 <script>
     import logo from "$lib/images/logo.png"
     import bg from "$lib/images/man.jpg"
-   
+
 
 let formAppear = false
 
@@ -348,10 +348,12 @@ let formAppear = false
     }
     .form-container{
         width: 100dvw;
-        height: 100dvh;
+        height: 100vh;
+        background-color: rgba(24, 24, 24, 0.7);
         position: fixed;
-        display: grid;
-        place-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         z-index:110;
         
     }
@@ -361,7 +363,6 @@ let formAppear = false
         flex-direction: column;
         gap: calc(20px * var(--size-multiplier));
         max-width: calc(400px * var(--size-multiplier));
-        margin: 0 auto;
         background-color: #1D2026;
         padding: calc(40px * var(--size-multiplier));
     }
