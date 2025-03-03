@@ -1,6 +1,7 @@
 <script>
     import logo from "$lib/images/logo.png"
     import bg from "$lib/images/man.jpg"
+   
 
 let formAppear = false
 
@@ -68,7 +69,7 @@ let formAppear = false
         <h3 class="offer-type">Professional</h3>
         <p class="offer-desc">Ideal for individuals who need help prepare for the national bac exam</p>
         <div class="offer-price">
-            <h1>300DH</h1>
+            <h1>100DH</h1>
             <p>/Month</p>
         </div>
         <div class="offer-features">
@@ -351,6 +352,8 @@ let formAppear = false
         position: fixed;
         display: grid;
         place-items: center;
+        z-index:110;
+        
     }
     form{
        
